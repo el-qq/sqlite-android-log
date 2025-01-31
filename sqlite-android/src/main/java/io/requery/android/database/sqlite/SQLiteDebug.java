@@ -35,9 +35,10 @@ public final class SQLiteDebug {
      * Controls the printing of informational SQL log messages.
      *
      * Enable using "adb shell setprop log.tag.SQLiteLog VERBOSE".
-     */
-    public static final boolean DEBUG_SQL_LOG =
+         public static final boolean DEBUG_SQL_LOG =
             Log.isLoggable("SQLiteLog", Log.VERBOSE);
+     */
+    public static final boolean DEBUG_SQL_LOG = false;
 
     /**
      * Controls the printing of SQL statements as they are executed.
